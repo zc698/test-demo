@@ -1,0 +1,32 @@
+import heapq
+
+class Test:
+	def test(self):
+	minheap = []
+	heapq.heapify(minheap)
+
+	heapq.heappush(minheap,10)
+	heapq.heappush(minheap,8)
+	heapq.heappush(minheap,9)
+	heapq.heappush(minheap,2)
+	heapq.heappush(minheap,1)
+	heapq.heappush(minheap,11)
+	
+	print(minheap)
+	
+	print(minheap[0])//1
+
+	heapq.heappop(minheap)//delete
+
+	len(minheap)
+
+	while len(minheap)!=0:
+		print(heapq.heappop(minheap))
+
+if __name__=="__main__":
+	test = Test()
+	test.test()
+
+	
+
+
